@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>aula_inatel.star_wars.star_wars</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-06 02:17:52 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Testando retorno people/1/</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:8]"><span>[2:8]</span> <span>Testando retorno people/1/ com informações inválidas</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">aula_inatel/star_wars/star_wars.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Testando API StarWars</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Testando retorno people/1/</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2176</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://swapi.dev/api/people/1/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">02:17:49.651 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2176</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">02:17:50.193 request:
+1 &gt; GET https://swapi.dev/api/people/1/
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+02:17:51.886 response time in milliseconds: 1621
+1 &lt; 200
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Tue, 06 Dec 2022 05:17:51 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept, Cookie
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;ee398610435c328f4d0a4e1b0d2f7bbc&quot;
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Strict-Transport-Security: max-age=15768000
+{&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/1\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/3\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/6\/&quot;],&quot;homeworld&quot;:&quot;https:\/\/swapi.dev\/api\/planets\/1\/&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;skin_color&quot;:&quot;fair&quot;,&quot;edited&quot;:&quot;2014-12-20T21:17:56.891000Z&quot;,&quot;created&quot;:&quot;2014-12-09T13:50:51.644000Z&quot;,&quot;mass&quot;:&quot;77&quot;,&quot;vehicles&quot;:[&quot;https:\/\/swapi.dev\/api\/vehicles\/14\/&quot;,&quot;https:\/\/swapi.dev\/api\/vehicles\/30\/&quot;],&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/people\/1\/&quot;,&quot;hair_color&quot;:&quot;blond&quot;,&quot;birth_year&quot;:&quot;19BBY&quot;,&quot;eye_color&quot;:&quot;blue&quot;,&quot;species&quot;:[],&quot;starships&quot;:[&quot;https:\/\/swapi.dev\/api\/starships\/12\/&quot;,&quot;https:\/\/swapi.dev\/api\/starships\/22\/&quot;],&quot;name&quot;:&quot;Luke Skywalker&quot;,&quot;height&quot;:&quot;172&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:8]</span>
+                <span class="scenario-name">Testando retorno people/1/ com informações inválidas</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1028</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://swapi.dev/api/people/1/1234&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">02:17:51.912 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1027</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">02:17:51.921 request:
+1 &gt; GET https://swapi.dev/api/people/1/1234
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+02:17:52.942 response time in milliseconds: 1020
+1 &lt; 404
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Tue, 06 Dec 2022 05:17:53 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;06652bbfa1a35126f558de90b1771a66&quot;
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/people/1/1234/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/people/1/1234/&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/people/1/1234/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
