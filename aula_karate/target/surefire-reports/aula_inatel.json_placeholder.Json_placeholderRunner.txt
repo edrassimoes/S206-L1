@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.json_placeholder.Json_placeholderRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.63 s <<< FAILURE! - in aula_inatel.json_placeholder.Json_placeholderRunner
+testJson[1][1]  Time elapsed: 2.583 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+no step-definition method match found for: url_base
+classpath:aula_inatel/json_placeholder/json_placeholder.feature:7
+
