@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: test.java.prova.pokemon.PokemonRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.535 s <<< FAILURE! - in test.java.prova.pokemon.PokemonRunner
+testPokemon  Time elapsed: 0.533 s  <<< ERROR!
+java.lang.RuntimeException: not found: test/java/prova/pokemon/pokemon.feature
+

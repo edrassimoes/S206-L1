@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: prova.pokemon.json_placeholder.JsonRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in prova.pokemon.json_placeholder.JsonRunner
+testJson  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "prova.json_placeholder" does not match the expected package "prova.pokemon.json_placeholder"
+
+	at prova.pokemon.json_placeholder.JsonRunner.<init>(JsonRunner.java:1)
+

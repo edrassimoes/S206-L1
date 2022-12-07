@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: prova.Go_REST.GrRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.639 s <<< FAILURE! - in prova.Go_REST.GrRunner
+testGR  Time elapsed: 0.637 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.intuit.karate.core.KarateParser$TableContext.TABLE_ROW()" because "ctx" is null
+
